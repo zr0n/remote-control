@@ -1,5 +1,6 @@
 const vol = require("vol")
 const gamepad = require("gamepad")
+const {exec}  = require("child_process")
 
 
 const VOLUME_UP = 7
@@ -31,6 +32,7 @@ function start(volume){
                 break
         }
     })
+    exec("jmouse.exe")
 }
 
 
