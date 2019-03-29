@@ -56,5 +56,6 @@ function clamp(value, min = 0, max = 1){
 }
 
 function showCurrentVolume(){
+    return //Don't log unecessary stuff
     console.log("Current volume: " + currentVolume)
 }
